@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  web:
+    build: .
+    ports:
+      - 8000:8000
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_DATABASE: facebook_scraper
+    ports:
+      - 27017:27017
+    volumes:
+      - .data :/data/db
