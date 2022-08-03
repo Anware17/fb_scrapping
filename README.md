@@ -4,7 +4,7 @@ A dockerized facebook scrapping service using fastAPI, MongoDB and Docker Compos
 
 ## This service scrapes Facebook public page posts and saves the data in MongoDB.
 
-The API is built with fastAPI, Facebook scraping is done with the facebook scraper python library, and the connection to MongoDB is done with pymongo.
+The API is built with fastAPI, Facebook scraping is done with facebook scraper python library, and the connection to MongoDB is done with pymongo.
 
 ### Steps 
 
