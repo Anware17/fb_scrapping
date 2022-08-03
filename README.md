@@ -24,6 +24,7 @@ docker run -d -p 8000:8000 -d fb_scraper_data
  http://localhost:8000/scrap/datascience4u
 
 
+![image](https://user-images.githubusercontent.com/62955267/182714643-68f03cb0-27d6-4785-a004-fb2f75e554c4.png)
 
 
 
