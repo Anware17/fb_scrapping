@@ -23,9 +23,6 @@ docker run -d -p 8000:8000 -d fb_scraper_data
 
 - You can test http://localhost:8000/docs
 
-![image](https://user-images.githubusercontent.com/62955267/182715040-af317ccd-1621-44b6-bbd5-80bffc104eac.png)
-
-
 
 - This request would scrap posts from the page "Data Science For u"
  http://localhost:8000/scrap/datascience4u
